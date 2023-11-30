@@ -12,7 +12,8 @@
 }
 
 .foto_box {
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .jud_box {
@@ -35,12 +36,8 @@
   display: flex;
 }
 
-.jud_article {
-  text-align: center;
-}
-
 .foto_article1 {
-  width: 30%;
+  width: 20%;
   border-radius: 30px;
   float: left;
   padding-inline-start: 5px;
@@ -48,14 +45,35 @@
 }
 
 .foto_article2 {
-  width: 30%;
+  width: 20%;
   border-radius: 30px;
   float: right;
   padding-inline-start: 5px;
   padding-inline-end: 5px;
 }
 
+.jud_article1 {
+  text-align: left;
+}
+
+.jud_article2 {
+  text-align: right;
+}
+
+.jud_article3 {
+  text-align: left;
+}
+
+.jud_article4 {
+  text-align: right;
+}
+
 .ket_article1 {
+  color: black;
+  text-align: left;
+}
+
+.foot_article1 {
   color: black;
   text-align: left;
 }
@@ -65,9 +83,13 @@
   text-align: right;
 }
 
+.foot_article2 {
+  color: black;
+  text-align: right;
+}
+
 .footer {
-  padding-top: 5%;
-  margin-bottom: 2%;
+  margin-top: 15%;  
   text-align: center;
 }
 
@@ -89,4 +111,40 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+nav {
+  margin:auto;
+  text-align: center;
+  width: 50%;
+  font-family: arial;
+} 
+
+nav ul {
+  background:black;
+  
+  list-style: none;
+  
+  display: inline-table;
+  width: 80%;
+ }
+
+nav ul li{
+  float:left;
+  padding-left: 32px;
+}
+
+nav ul li:hover{
+  background:gold;
+}
+
+nav ul li:hover a{
+   color:red;
+}
+
+nav ul li a{
+   display: block;
+   padding: 25px;
+   color: #fff;
+   text-decoration: none;
 }

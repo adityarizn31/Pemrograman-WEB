@@ -10,7 +10,6 @@ class Home extends BaseController
             'title' => 'Home || Guns N Roses '
         ];
         echo view('templates/header', $data);
-        echo view('templates/navbar');
         echo view('layout/index');
     }
 }
