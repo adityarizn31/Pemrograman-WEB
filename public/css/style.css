@@ -25,7 +25,6 @@
 .btn_box {
   margin-bottom: 5px;
   background-color: antiquewhite;
-
 }
 
 .ket_box {
@@ -89,7 +88,7 @@
 }
 
 .footer {
-  margin-top: 15%;  
+  margin-top: 15%;
   text-align: center;
 }
 
@@ -103,7 +102,8 @@ table {
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -114,37 +114,37 @@ tr:nth-child(even) {
 }
 
 nav {
-  margin:auto;
+  margin: auto;
   text-align: center;
   width: 50%;
   font-family: arial;
-} 
+}
 
 nav ul {
-  background:black;
-  
+  background: black;
+
   list-style: none;
-  
+
   display: inline-table;
   width: 80%;
- }
+}
 
-nav ul li{
-  float:left;
+nav ul li {
+  float: left;
   padding-left: 32px;
 }
 
-nav ul li:hover{
-  background:gold;
+nav ul li:hover {
+  background: gold;
 }
 
-nav ul li:hover a{
-   color:red;
+nav ul li:hover a {
+  color: red;
 }
 
-nav ul li a{
-   display: block;
-   padding: 25px;
-   color: #fff;
-   text-decoration: none;
+nav ul li a {
+  display: block;
+  padding: 25px;
+  color: #fff;
+  text-decoration: none;
 }
